@@ -1,0 +1,36 @@
+{ "events": [
+        {
+            "id": 1,
+            "image": "./assets/media/PuppyManners.png",
+            "name": "Puppy Manners & Socialization",
+            "date": "25/06/2022",
+            "location": "Ridgeways, Paa Ya Paa Lane",
+            "entry": "free"
+        },
+        {
+            "id": 2,
+            "image": "./assets/media/ShaggyDogShow.png",
+            "name": "Shaggy Dog Show",
+            "date": "07/07/2022",
+            "location": "Ngong Race Course, Nairobi",
+            "entry": "200"
+
+        },
+        {
+            "id": 3,
+            "image": "./assets/media/EastAfricaDogShow.png",
+            "name": "All Breed Championship Show",
+            "date": "02/07/2022",
+            "location": "EAKC Weld Dixon Showground",
+            "entry": "free"
+        },
+        {
+            "id": 4,
+            "image": "./assets/media/KakamegaAllDogShow.png",
+            "name": "Kakamega Kenya All Dog Show",
+            "date": "16/07/2022",
+            "location": "Lions Club Grounds, Kakamega",
+            "entry": "free"
+        }
+    ]
+}
