@@ -92,20 +92,110 @@ body {
 
 /* ABOUT SECTION */
 #about {
-    background-image: url(../media/bg1.avif);
-    background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: auto;
+    background: linear-gradient(to bottom, #062652, whitesmoke);
 }
 
-#about > .aboutbg> h2 {
+/* #about > .aboutbg> h2 {
     color: #EB7329;
     text-align: center;
     font-size: 35px;
     padding-top: 150px;
     margin-top: 50px;
     padding-bottom: 50px;
+} */
+
+/* ABOUT SECTION */
+.container {
+    /* background:linear-gradient(45deg, whitesmoke, #062652); */
+    padding: 50px;
+    text-align: center;
+    height: auto;
+    width: 95%;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
 }
+
+.container .wrapper {
+    height: 50em;
+    width: 30em;
+    margin: 1em;
+    /* border: 3px solid white; */
+    background: linear-gradient(45deg, black, #062652);
+    border-radius: 50px;
+
+
+}
+
+.wrapper img {
+    /* position: relative; */
+    z-index: 20;
+    border-radius: 50%;
+    display: block;
+    border: 4px solid #ce7902;
+    object-fit: cover;
+    margin: 20px auto;
+    
+}
+
+.wrapper .name {
+    color: #ce7902;
+    font-size: 2em;
+    font-weight: 900;
+    padding: 12px;
+    line-height: 25px;
+}
+
+.wrapper .title, .area {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 12px;
+    line-height: 15px;
+}
+
+.btn button {
+    height: 50px;
+    width: 175px;
+    color: whitesmoke;
+    background-color: #ce7902;
+    border: 2px solid #062652;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-weight: 500;
+    font-size: 1em;
+    transition: 0.3s;
+} 
+
+.btn button:hover {
+    transform: scale (1.1);
+}
+
+@media screen and (max-width: 1150px) {
+    .wrapper {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+        width: 65%;
+    }
+}
+    
+@media screen and (max-width: 500px) {
+    .wrapper {
+        width: 75%;
+    }
+}
+
+
 
 /* SERVICES SECTION */
 #services {
@@ -157,6 +247,7 @@ body {
     margin-top: 50px;
     padding-bottom: 50px;
 }
+
 
 /* FOOTER */
 
