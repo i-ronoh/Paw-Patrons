@@ -4,30 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css"><style>@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');</style>
-    <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            appId      : '{your-app-id}',
-            cookie     : true,
-            xfbml      : true,
-            version    : '{api-version}'
-          });
-            
-          FB.AppEvents.logPageView();   
-            
-        };
-      
-        (function(d, s, id){
-           var js, fjs = d.getElementsByTagName(s)[0];
-           if (d.getElementById(id)) {return;}
-           js = d.createElement(s); js.id = id;
-           js.src = "https://connect.facebook.net/en_US/sdk.js";
-           fjs.parentNode.insertBefore(js, fjs);
-         }(document, 'script', 'facebook-jssdk'));
-      </script>
-      
     <script src="/assets/js/index.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Paw Patrons</title>
 </head>
 <body>
@@ -51,6 +29,9 @@
             </ul>
         </div>
     </nav>
+
+    <!-- HOME -->
+
     <section id="home">
         <div class="hero">
             <div class="left">
@@ -61,64 +42,125 @@
             </div>
         </div>
     </section>
+
+<!-- ABOUT US -->
+
     <section id="about">
         <div class="aboutbg">
-            <h2>ABOUT US</h2>
+            <h2>OUR TEAM</h2>
+        </div>
+        <div class="container">
+
+            <!-- MEMBER 1 -->
+    
+            <div class="wrapper">
+                <a href="#">
+                    <img src="./assets/media/indian.png" width="450px" height="450px" alt="teammate1">
+                </a>
+                <div class="text">
+                    <div class="name">Yves Bissouma</div>
+                    <div class="title">Resident Dog Trainer</div>
+                    <div class="area">Nairobi, Kenya</div>
+                </div>
+                <br>
+                <div class="btn">
+                    <button>Ask Me a Question</button>
+                </div>
+            </div>
+    
+            <!-- MEMBER 2 -->
+    
+            <div class="wrapper">
+                <a href="#">
+                    <img src="./assets/media/lady.png" width="450px" height="450px" alt="teammate2">
+                </a>
+                <div class="text">
+                    <div class="name">Yolanda Aisha</div>
+                    <div class="title">Resident Veterinarian</div>
+                    <div class="area">Nairobi, Kenya</div>
+                </div>
+                <br>
+                <div class="btn">
+                    <button>Ask Me a Question</button>
+                </div>
+            </div>
+    
+            <!-- MEMBER 3 -->
+    
+            <div class="wrapper">
+                <a href="#">
+                    <img src="./assets/media/man.png" width="450px" height="450px" alt="teammate3" style="border-radius: ;50%">
+                </a>
+                <div class="text">
+                    <div class="name">Ayiro Manasseh</div>
+                    <div class="title">Founder, Chief Caregiver</div>
+                    <div class="area">Nairobi, Kenya</div>
+                </div>
+                <br>
+                <div class="btn">
+                    <button>Ask Me a Question</button>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- SERVICES -->
+
     <section id="services">
         <div class="servicesbg">
             <h2>OUR SERVICES</h2>
         </div>
     </section>
+
+    <!-- EVENTS -->
+
     <section id="events">
         <div class="eventsbg">
             <h2>EVENTS</h2>
         </div>
     </section>
+
+    <!-- FAQs -->
+
     <section id="faqs">
         <div class="faqsbg">
             <h2>FAQs</h2>
         </div>
     </section>
-    <footer>
 
-    <div class="footer-container">
-        <div class="footer">
-            <div class="footer-heading footer-0">
-                <img src="./assets/media/logo.png" alt="LOGO">
-            </div>
-           <div class="footer-heading footer-1">
-               <h2>About us</h2>
-               <a href="">Blog</a>
-               <a href="">About Us</a>
-               <a href="">Customers</a>
-               
-               
-            </div>
-            <div class="footer-heading footer-2">
-                <h2>Social Media</h2>
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-heading footer-0">
+                    <img src="./assets/media/logo.png" alt="LOGO">
+                </div>
+                <div class="footer-heading footer-1">
+                <h2>About us</h2>
                 <a href="">Blog</a>
                 <a href="">About Us</a>
                 <a href="">Customers</a>
-                
-                
-             </div>
-             <div class="footer-heading footer-3">
-                <h2>Contact us</h2>
-                <a href="">Blog</a>
-                <a href="">About Us</a>
-                <a href="">Customers</a>
-                
-                
-             </div>
-             <div class="footer-email-form">
-             <h2>Join our newsletter</h2>
-            <input type="text" placeholder="enter your email" id="footer-email">
-            <input type="email" value="Sign-up"   id="footer-email-btn">
-             </div>
+                </div>
+                <div class="footer-heading footer-2">
+                    <h2>Social Media</h2>
+                    <a href="">Blog</a>
+                    <a href="">About Us</a>
+                    <a href="">Customers</a> 
+                </div>
+                <div class="footer-heading footer-3">
+                    <h2>Contact us</h2>
+                    <a href="">Blog</a>
+                    <a href="">About Us</a>
+                    <a href="">Customers</a> 
+                </div>
+                <div class="footer-email-form">
+                    <h2>Join our newsletter</h2>
+                    <input type="text" placeholder="enter your email" id="footer-email">
+                    <input type="email" value="Sign-up"   id="footer-email-btn">
+                </div>
+            </div>
         </div>
-    </div>
     </footer>
 </body>
 </html>
