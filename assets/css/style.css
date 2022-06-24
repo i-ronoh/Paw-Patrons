@@ -29,7 +29,8 @@ body {
 #nav-bar > ul > li {
     list-style: none;
     padding-right: 35px;
-    font-size: 1.5em;
+    font-size: 1em;
+    line-height: 25px;
     letter-spacing: 1.2px;
 }
 
@@ -64,15 +65,17 @@ body {
 }
 
 .getStarted {
-    padding: 1.5em;
+    padding: 1em;
     background-color: #EB7329;
     color: whitesmoke;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bolder;
     border-bottom-right-radius: 45px;
     border-top-left-radius: 45px;
     font-family: 'ZCOOL XiaoWei', serif;
-
+    height: 80px;
+    width: 250px;
+    cursor: pointer;
 }
 
 #home {
@@ -97,14 +100,13 @@ body {
     background: linear-gradient(to bottom, #062652, whitesmoke);
 }
 
-/* #about > .aboutbg> h2 {
-    color: #EB7329;
-    text-align: center;
-    font-size: 35px;
-    padding-top: 150px;
-    margin-top: 50px;
-    padding-bottom: 50px;
-} */
+#about > .aboutbg> h2 {
+    color: #ce7902;
+    font-size: 2rem;
+    font-weight: 900;
+    position: relative;
+    margin-left: 5em;
+}
 
 /* ABOUT SECTION */
 .container {
@@ -162,10 +164,10 @@ body {
 .btn button {
     height: 50px;
     width: 175px;
+    cursor: pointer;
     color: whitesmoke;
     background-color: #ce7902;
     border: 2px solid #062652;
-    cursor: pointer;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     font-weight: 500;
