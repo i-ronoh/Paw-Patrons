@@ -82,6 +82,9 @@
                     <div class="area">Nairobi, Kenya</div>
                 </div>
                 <br>
+                <div class="icons">
+                    
+                </div>
                 <div class="btn">
                     <button>Ask Me a Question</button>
                 </div>
@@ -109,9 +112,79 @@
     <!-- SERVICES -->
 
     <section id="services">
-        <div class="servicesbg">
+        <!-- <div class="servicesbg">
             <h2>OUR SERVICES</h2>
+        </div> -->
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+</head>
+<body>
+    <h2 class="titl">OUR SERVICES</h2>
+    <div class="more-info">
+        <div class="row">
+            <div class="column-third">
+                <div class="card first anime">
+                    <h1><span class="iconify" data-icon="tabler:dog-bowl"></span></h1>
+                    <h2>Doggy Day-Care</h2>
+                    <p>Our Dog Daycare is tailor-made to give your dog the best experience together with some socialization training. Every session is supervised by our trained Paw Patrons and every dog is taken care of accordingly.</p>
+                </div>
+            </div>
+
+            <div class="column-third">
+                <div class="card anime">
+                    <h1><span class="iconify" data-icon="maki:dog-park"></span></h1>
+                    <h2>Dog Boarding</h2>
+                    <p>Every pet in our care will experience comfort and security because that is our first priority. We provide a la carte services to supplement our regular boarding package because no dog is exactly like yours, allowing for a completely personalized stay.</p>
+                </div>
+            </div>
+
+            <div class="column-third">
+                <div class="card last anime">
+                    <h1><span class="iconify" data-icon="carbon:dog-walker"></span></h1>
+                    <h2>Dog Training</h2>
+                    <p>We design dog training regimens that are simple to understand and practical to apply on a regular basis. You can discover the benefits of having a fresh relationship with your dog by learning how to speak to it properly and efficiently.</p>
+                </div>
+            </div>
         </div>
+    </div>
+</div>
+<div class="welcome">
+    <div class="container">
+        <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
+        <form action="https://formspree.io/f/mzbowbdk" method="POST">
+            <input type="text" name="name" id="name" placeholder="Dog Breed" required>
+            <br>
+            <input list="dog-age" name="dog-age" placeholder="Select Dog's Age">
+            <datalist id="dog-age">
+                <option value="Puppy">
+                <option value="Adult">
+            </datalist><br>
+            <input list="service" name="service" placeholder="Select service required">
+            <datalist id="service">
+                <option value="Day-Care">
+                <option value="Boarding">
+                <option value="Training">
+            </datalist><br>
+            <span class="tab">
+            <button type="submit">GET QUOTE</button>
+            <button type="reset">RESET</button>
+            </span>
+        </form>
+    </div> 
+    <!-- <div class="more-btn">
+        <a href="#"><button class="button-1 clasic-btn">Get Quote Now</button></a> 
+    </div> -->
+</div>
+</body>
+</html>
     </section>
 
     <!-- EVENTS -->
