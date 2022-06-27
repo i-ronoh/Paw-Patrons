@@ -281,7 +281,7 @@ form input {
     font-family: 'ZCOOL XiaoWei', serif;
     border-radius: 15px;
     color: rgb(6, 1, 74);
-    width: 750px;
+    width: 650px;
 }
 
 form button {
@@ -361,7 +361,7 @@ form button {
     /* background-image: url(../media/bg3.avif); */
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: block;
 
 }
@@ -370,8 +370,7 @@ form button {
     color: #EB7329;
     text-align: center;
     font-size: 35px;
-    padding-top: 150px;
-    margin-top: 50px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -381,6 +380,14 @@ form button {
     gap: 50px;
     font-size: 20px;
     letter-spacing: 1px;
+    border: 5px solid;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding: 20px;
+}
+
+.event-data {
+    margin-top: 100px;
 }
 
 /* FAQs SECTION */
