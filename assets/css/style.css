@@ -18,8 +18,8 @@ body {
     color: whitesmoke;
     position: fixed;
     width: 100%;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 #nav-bar > ul{
@@ -103,7 +103,7 @@ body {
 }
 
 #about > .aboutbg> h2 {
-    color: #ce7902;
+    color: whitesmoke;
     font-size: 2rem;
     font-weight: 900;
     position: relative;
@@ -160,8 +160,89 @@ body {
     font-size: 1.2em;
     font-weight: 500;
     padding: 12px;
-    line-height: 15px;
+    line-height: 5px;
 }
+
+
+.contactainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contactainer ul{
+    position: absolute;
+    display: flex;
+}
+
+.contactainer ul li{
+    position: relative;
+    list-style: none;
+    margin: 0 10px;
+    cursor: pointer;
+    
+}
+
+.contactainer ul li a{
+    text-decoration: none;
+}
+
+.contactainer ul li a .fa{
+    font-size:  1.5em;
+    color: #222;
+}
+
+.contactainer ul li::before{
+    font-family: fontAwesome;
+    position: absolute;
+    font-size: 1.5em;
+    height: 0;
+    overflow: hidden;
+    transition: 1s ease-in-out ;
+}
+
+.contactainer ul li:nth-child(1):before{
+    content: '\f099';
+    color: #00ACEE;
+    border-bottom: 5px solid #00acee;
+}
+
+.contactainer ul li:hover::before{
+     height: 100%;
+}
+
+.contactainer ul li:nth-child(2):before{
+    content: '\f16d';
+    color: #bc2a8d;
+    border-bottom: 5px solid #e95950;
+}
+
+.contactainer ul li:hover::before{
+     height: 100%;
+}
+
+.contactainer ul li:nth-child(3):before{
+    content: '\f0e1';
+    color: #0072b1;
+    border-bottom: 5px solid #0072b1;
+}
+
+.contactainer ul li:hover::before{
+    height: 100%;
+}
+
+.contactainer ul li:nth-child(4):before{
+    content: '\f09a';
+    color: #3b5998;
+    border-bottom: 5px solid #3b5998;
+}
+
+.contactainer ul li:hover::before{
+     height: 100%;
+}
+
 
 .btn button {
     height: 50px;
@@ -199,28 +280,7 @@ body {
     }
 }
 
-
-
-/* SERVICES SECTION */
-/* #services {
-    background-image: url(../media/bg2.avif);
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-}*/
-
-
-.titl{
-    color: #ce7902;
-    text-align: center;
-    font-weight: 900;
-    font-size: 40px;
-    margin-bottom: 100px;
-    position: relative;
-}
-
 #services {
-    /* background:url(./images/); */
     background-size: cover;
     background-position: center;
     /* background-color: #fefefe; */
@@ -229,23 +289,23 @@ body {
     min-height: 100vh;
 }
 
+.titl{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 50px;
+    position: relative;
+}
 
-.welcome{
+.query{
     align-items: center;
     text-align: center;
-    padding-top: 2vw;
-    padding-bottom: 5vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
-/* .welcome h1{
-    font-size: 50px;
-    color: orange;
-}
-*/
 
 .container {
     width: 100%;
@@ -255,27 +315,32 @@ body {
 }
 
 form {
-    /* display: flex;
-    flex-direction: column; */
     padding: 1vw 5vw;
     width: 50%;
-    height: 450px;
+    height: 550px;
     min-width: 750px;
     border-bottom-right-radius: 35px;
     border-top-left-radius: 35px;    
     border: 2px solid #273333;
     background-size: cover;
-    background-image: linear-gradient(to bottom, #022f5f, #1c3a63, #2e4567, #3e516a, #4f5c6d, #4f5c6d, #4f5c6d, #4f5c6d, #3e516a, #2e4567, #1c3a63, #022f5f);}
+    background-image: linear-gradient(to bottom, #022f5f, #1c3a63, #2e4567, #3e516a, #4f5c6d, #4f5c6d, #4f5c6d, #4f5c6d, #3e516a, #2e4567, #1c3a63, #022f5f);
+}
+
+form h3 {
+    color: whitesmoke;
+    font-size: 1.5em;
+    padding: 25px;
+}
 
 form input {
     border: 0px;
     margin: 10px 0px;
-    padding: 30px;
+    padding: 20px;
     outline: none;
     background-color: whitesmoke;
     font-size: 20px;
     font-family: 'ZCOOL XiaoWei', serif;
-    border-radius: 15px;
+    border-radius: 5px;
     color: rgb(6, 1, 74);
     width: 650px;
 }
@@ -292,7 +357,11 @@ form button {
     border-top-left-radius: 25px;
     font-family: 'ZCOOL XiaoWei', serif;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 25px;
+}
+
+form button:hover {
+    transform: scale(0.95);
 }
 
 .tab{
@@ -334,8 +403,8 @@ form button {
 .card h2{
     font-size: 25px;
     color: orange;
-    margin-bottom: 35px;
-    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-top: 20px;
 }
 
 .card h1{
@@ -349,14 +418,13 @@ form button {
 }
 
  .anime:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
     color: white;
 }
 
 
 /* EVENTS SECTION */
 #events {
-    /* background-image: url(../media/bg3.avif); */
     background-size: cover;
     width: 100%;
     min-height: 100vh;
@@ -365,11 +433,12 @@ form button {
 }
 
 #events  h2 {
-    color: #EB7329;
+    color: whitesmoke;
     text-align: center;
     font-size: 35px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 50px; 
+    position: relative;
 }
 
 #eventHandler {
@@ -380,12 +449,11 @@ form button {
     gap: 100px;
     letter-spacing: 1px;
     padding: 20px;
-    
 }
 
 .event-data {
     display: block;
-    padding: 55px;
+    padding: 50px;
     border: 2px solid #062652;
     background-color: #062652;
     border-top-left-radius: 35px;
@@ -407,14 +475,26 @@ form button {
     padding: 5px;
 }
 
-#like {
+.like {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.like #thumbsUp:hover, #thumbsDown:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+   color: orange;
+   transition: all 0.4s ease-out;
+
 }
 
 /* FAQs SECTION */
-#faqs {
+/* #faqs {
     background-image: url(../media/bg4.avif);
     background-size: cover;
     width: 100%;
@@ -428,7 +508,7 @@ form button {
     padding-top: 150px;
     margin-top: 50px;
     padding-bottom: 50px;
-}
+} */
 
 
 /* FOOTER */
@@ -438,15 +518,15 @@ form button {
     padding-bottom:4rem  0 2rem 0;
 }
 .footer{
- width: 100%;
- height: 15vh;
- background-color: #062652;
- color: white;
- display: flex;
- justify-content: center;
- flex-wrap: wrap;
- margin:auto;
-padding: 20px;
+    width: 100%;
+    height: 20vh;
+    background-color: #062652;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:auto;
+    padding: 20px;
 
 }
 .footer-heading{
@@ -458,7 +538,7 @@ padding: 20px;
 
 .footer-0 {
     width: 100px;
-    height: 80px;
+    height: 180px;
     overflow: hidden;
 }
 
@@ -484,7 +564,7 @@ padding: 20px;
 }
 .footer-email h2 {
 
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 #footer-email{
     width: 250px;
@@ -497,8 +577,13 @@ padding: 20px;
     margin-bottom: 1rem;
 
 }
+.footer-email-form h2{
+    margin-bottom: 15px;
+}
+
 #footer-email::placeholder{
    color: lightgray;
+   margin: 5px;
 }
 #footer-email-btn{
     width: 100px;
@@ -511,9 +596,10 @@ padding: 20px;
     color: #fff;
     font-size: 1rem;
     padding: 20px;
+    cursor: pointer;
 
 }
-#footer-email-btn::hover{
+#footer-email-btn:hover{
    cursor: pointer;
    background-color: #337AF1;
    transition: all 0.4s ease-out;
@@ -540,6 +626,7 @@ padding: 20px;
                margin-top: 2rem;
         }
 }
+
 
   
   
