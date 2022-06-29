@@ -132,9 +132,12 @@ body {
     /* border: 3px solid white; */
     background: linear-gradient(45deg, black, #062652);
     border-radius: 50px;
-
-
 }
+
+/* .wrapper img:hover {
+    height: 90%;
+    border-radius: 0;
+} */
 
 .wrapper img {
     /* position: relative; */
@@ -498,7 +501,7 @@ form button:hover {
 }
 
 .like #thumbsUp:hover, #thumbsDown:hover {
-   transform: scale(1.1);
+   transform: scale(0.9);
    cursor: pointer;
    color: orange;
    transition: all 0.4s ease-out;
