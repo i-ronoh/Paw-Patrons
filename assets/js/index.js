@@ -43,7 +43,10 @@ let eventHandler = document.getElementById("eventHandler")
 
   }
 
-
+  const newsletter = document.getElementById('footer-email-btn');
+  newsletter.addEventListener('click', (event) => {
+    alert ('Thank you for subscribing to our newsletter!')
+  })
 
 
 
