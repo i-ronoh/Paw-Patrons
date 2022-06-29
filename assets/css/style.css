@@ -466,12 +466,12 @@ form button:hover {
 
 .event-data:hover {
     cursor: pointer;
-    transform: scale(1.05);
-    transition: all 0.9s ease-out;
+    transform: scale(1.1);
+    transition: all 1.5s ease-in;
     background: linear-gradient(45deg, black, #062652);
     color: #062652;
     border: 1px solid whitesmoke;
-    font-size: 1.2em;
+    font-size: 1.1em;
  }
 
 
