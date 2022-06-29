@@ -4,9 +4,10 @@
             "id": 1,
             "image": "./assets/media/PuppyManners.png",
             "name": "Puppy Manners & Socialization",
-            "date": "25/06/2022",
+            "date": "09/07/2022",
             "location": "Ridgeways, Paa Ya Paa Lane",
-            "entry": "free"
+            "entry": "free",
+            "likes": 0
         },
         {
             "id": 2,
@@ -14,7 +15,8 @@
             "name": "Shaggy Dog Show",
             "date": "07/07/2022",
             "location": "Ngong Race Course, Nairobi",
-            "entry": "200"
+            "entry": "200",
+            "likes": 0
 
         },
         {
@@ -23,7 +25,8 @@
             "name": "All Breed Championship Show",
             "date": "02/07/2022",
             "location": "EAKC Weld Dixon Showground",
-            "entry": "free"
+            "entry": "free",
+            "likes": 0
         }
     ]
 }
