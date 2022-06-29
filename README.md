@@ -70,10 +70,11 @@ As a user you ase able to:
 
 ### description
 
-This web application helps to solve the problem of tracing employees working time. This can be very essential espesialy jobs that pays thier employees on hourly basis.
-the application is also beneficial to a any company since it enables them track thier working times of thier employees and know how to optimize make thiem efficient.
-the application solve this such as recoding each day's clock-in and clock-out timestamp and record it in the database as string array. the application then uses the timestamps to calculate how many hours the employee has been working and compute the employees salary.
+This web application helps to solve the problem of of pet owners lacking the time and/or resources necessary to fulfill the attention and stimulation quota their furry friends require on the daily. These services are indeed very essential especially in the bid to curb the locking of pets in balconies- something that is extremely rampant in Nairobi suburbs.
+This application is not only beneficial to pets, it is also a very handy tool for pet owners since it enables them to do thier work without the guilt of not having enough time to cater for their pets. 
+In addition to this web application's ability to ensure the overall well-being of pets, it also has an event scheduler that allows for owner-pet bonding over fun-filled weekend activities. 
 
+Go ahead and try Paw-Patrons today, your furball will thank us, & so will you! Tell a friend to tell a friend :)
 ---
 
 ### challenges
@@ -108,15 +109,14 @@ clone the repo using the command
 - install json server using the command
 - `npm install -g json-server`
 - start the json server
-- `json-server assets/db/db.json`
+- `json-server --watch db.json`
 - use live server to run the front end
-- use credention from the json server to login(email: ebe@mail.com, password: 555)
 
 ---
 
 ## How to use the project
 
-The project root folder contains three files, main **index.html**, **index.html** and **README.md** file and one folder assets folder. the assets folder within it are four folders **css** which contains css files and **media** folder which contains images, **JS** which contains JavaScript files and **DB** folder containing json database file.
+The project root folder contains three files, main **index.html**, **index.html** and **README.md** file and one folder assets folder. the assets folder within it are four folders **css** which contains css files and **media** folder which contains images, and **JS** which contains JavaScript files.
 
 ---
 
