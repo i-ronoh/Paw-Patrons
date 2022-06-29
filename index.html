@@ -7,6 +7,8 @@
     <script src="/assets/js/index.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <style>@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');</style>
+    <script src="https://kit.fontawesome.com/327b6324f1.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
     <title>Paw Patrons</title>
 </head>
 <body>
@@ -25,8 +27,8 @@
                 <!-- <li><span class="orange">~</span></li> -->
                 <li><a href="#events">EVENTS</a></li>
                 <!-- <li><span class="orange">~</span></li> -->
-                <li><a href="#faqs">FAQs</a></li>
-            </ul>
+                <!-- <li><a href="#faqs">FAQs</a></li>
+            </ul> -->
         </div>
     </nav>
 
@@ -64,8 +66,13 @@
                     <div class="area">Nairobi, Kenya</div>
                 </div>
                 <br>
-                <div class="btn">
-                    <button>Ask Me a Question</button>
+                <div class="contactainer">
+                    <ul>
+                        <li><a href="https://twitter.com/ivyronoh"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    </ul>
                 </div>
             </div>
     
@@ -84,8 +91,13 @@
                 <div class="icons">
                     
                 </div>
-                <div class="btn">
-                    <button>Ask Me a Question</button>
+                <div class="contactainer">
+                    <ul>
+                        <li><a href="https://twitter.com/ivyronoh"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    </ul>
                 </div>
             </div>
     
@@ -101,9 +113,17 @@
                     <div class="area">Nairobi, Kenya</div>
                 </div>
                 <br>
-                <div class="btn">
-                    <button>Ask Me a Question</button>
+                <div class="contactainer">
+                    <ul>
+                        <li><a href="https://twitter.com/ivyronoh"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    </ul>
                 </div>
+                <!-- <div class="btn">
+                    <button>Ask Me a Question</button>
+                </div> -->
             </div>
         </div>
     </section>
@@ -143,10 +163,11 @@
         </div>
     </div>
 </div>
-<div class="welcome">
+<div class="query">
     <div class="container">
         <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
         <form action="https://formspree.io/f/mzbowbdk" method="POST">
+            <h3>Need a quote? Please fill in this form.</h3>
             <input type="text" name="name" id="name" placeholder="Dog Breed" required>
             <br>
             <input list="dog-age" name="dog-age" placeholder="Select Dog's Age">
@@ -160,6 +181,8 @@
                 <option value="Boarding">
                 <option value="Training">
             </datalist><br>
+            <input type="email" name="email" id="email" placeholder="Enter your email address to receive quote" required>
+            <br>
             <span class="tab">
             <button type="submit">GET QUOTE</button>
             <button type="reset">RESET</button>
@@ -191,7 +214,7 @@
                     <span><a href="" id="like">&hearts;</a></span>
                 </div> -->
                 <!-- <span><a href="" id="like">&hearts;</a></span> -->
-
+                
             </div>
 
     </section>
