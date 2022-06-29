@@ -1,7 +1,8 @@
-{ "events": [
+{ 
+    "events": [
         {
             "id": 1,
-            "image": "./assets/media/PuppyManners.png",
+            "image": "https://github.com/i-ronoh/Paw-Patrons/blob/4d38d4c08d313214799be53cbe179333e17a5097/assets/media/PuppyManners.png",
             "name": "Puppy Manners & Socialization",
             "date": "25/06/2022",
             "location": "Ridgeways, Paa Ya Paa Lane",
@@ -9,7 +10,7 @@
         },
         {
             "id": 2,
-            "image": "./assets/media/ShaggyDogShow.png",
+            "image": "https://github.com/i-ronoh/Paw-Patrons/blob/4d38d4c08d313214799be53cbe179333e17a5097/assets/media/ShaggyDogShow.png",
             "name": "Shaggy Dog Show",
             "date": "07/07/2022",
             "location": "Ngong Race Course, Nairobi",
@@ -18,7 +19,7 @@
         },
         {
             "id": 3,
-            "image": "./assets/media/EastAfricaDogShow.png",
+            "image": "https://github.com/i-ronoh/Paw-Patrons/blob/4d38d4c08d313214799be53cbe179333e17a5097/assets/media/EastAfricaDogShow.png",
             "name": "All Breed Championship Show",
             "date": "02/07/2022",
             "location": "EAKC Weld Dixon Showground",
@@ -26,7 +27,7 @@
         },
         {
             "id": 4,
-            "image": "./assets/media/KakamegaAllDogShow.png",
+            "image": "https://github.com/i-ronoh/Paw-Patrons/blob/4d38d4c08d313214799be53cbe179333e17a5097/assets/media/KakamegaAllDogShow.png",
             "name": "Kakamega Kenya All Dog Show",
             "date": "16/07/2022",
             "location": "Lions Club Grounds, Kakamega",
