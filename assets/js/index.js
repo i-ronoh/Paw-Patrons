@@ -30,11 +30,13 @@ let eventHandler = document.getElementById("eventHandler")
     let eventsData =  
     `
     <div class="event-data">
-    <img src="${eventCard.image}" width="300" height="500" alt="eventImg">
+    <img src="${eventCard.image}" width="400" height="500" alt="eventImg">
       <h3>${eventCard.name}</p>
       <h4>Location: ${eventCard.location}</p>
       <h4>Date: ${eventCard.date}</p>
       <h4>Cover Charge: ${eventCard.entry}</p>
+      <span ><a href="" id="like">&hearts; likes</a></span>
+
     </div>
     `
     eventHandler.innerHTML += eventsData
